@@ -1,0 +1,42 @@
+import React,{useState} from 'react'
+
+export default function BTN() {
+
+
+     function changeUpper(){
+
+        console.log(`hello ${text}`)
+        let newText = text.toUpperCase()
+        setText(newText)
+
+       }
+
+
+
+const changetext = (e)=>{
+
+
+setText(e.target.value);
+}
+
+
+
+
+    const [text,setText] = useState('')
+  return (
+    <div>
+<h1 className='heading'>hello {text} </h1>
+
+<input type="text" onChange={changetext} className='imp'
+ placeholder='EnterText' />
+
+<br/>
+<br/>
+<button className='imp' onClick={changeUpper}>change upper case </button>
+
+
+</div>
+  )
+
+
+}

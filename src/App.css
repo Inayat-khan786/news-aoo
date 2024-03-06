@@ -1,0 +1,42 @@
+
+
+
+/* @media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+} */
+
+*{margin: 0;
+  padding: 0;
+}
+
+.header_react{
+background-color: black;
+height:7vh;
+
+
+}
+
+
+.header_react ul{
+display: flex;
+flex-direction: row;
+list-style: none;
+
+}
+
+.header_react ul li{
+  
+margin-left: 5px;
+color: white;
+margin-top: 1%;
+
+
+}
+
+.bg-body-tertiary{
+
+background-color: blue;
+
+} 

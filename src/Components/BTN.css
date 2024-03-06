@@ -1,0 +1,25 @@
+.imp{
+
+
+padding: 10px;
+margin-left: 20px;
+width: 550px;
+height:130px ;
+
+}
+
+.imp1{
+
+padding: 10px;
+margin-left: 20px;
+text-align: center;
+background-color: blue;
+color: white;
+border: none;
+border-radius: 8px;
+  }
+
+.heading{
+
+    margin-left : 20px;
+}
